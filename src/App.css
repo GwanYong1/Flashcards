@@ -64,3 +64,23 @@
   align-items: center;
   height: 55vh;
 }
+
+.input-box {
+  border: 2px solid black; /* Set default border color to black */
+  margin-bottom: 50px; 
+  margin: 10px;
+}
+
+.correct-input {
+  border: 2px solid blue; /* Set border color to blue for correct input */
+}
+
+.incorrect-input {
+  border: 2px solid red; /* Set border color to red for incorrect input */
+}
+
+.check-answer {
+  border: 2px solid green;
+  margin: 20px;
+}
+

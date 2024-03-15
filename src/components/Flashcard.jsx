@@ -6,7 +6,7 @@ const Flashcard = ({ question, answer, side, on_click_function, difficulty }) =>
     height: "350px", 
     padding: "20px",
     fontSize: "30px",
-    backgroundColor: getBackgroundColor(difficulty)
+    backgroundColor: getBackgroundColor(difficulty),
   };
 
   function getBackgroundColor(difficulty) {
